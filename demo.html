@@ -1,0 +1,88 @@
+<!doctype html>
+<!--
+  ~ jquery.mb.components
+  ~ Copyright (c) 2001-2010. Matteo Bicocchi (Pupunzi); Open lab srl, Firenze - Italy
+  ~ email: info@pupunzi.com
+  ~ site: http://pupunzi.com
+  ~
+  ~ Licences: MIT, GPL
+  ~ http://www.opensource.org/licenses/mit-license.php
+  ~ http://www.gnu.org/licenses/gpl.html
+  -->
+
+<html>
+<head>
+  <style type="text/css">
+    body{
+      font:14px/14px Arial, sans-serif;
+    }
+    .wrapper{
+      font-family:Arial, Helvetica, sans-serif;
+      padding-top:90px;
+      padding-left:50px;
+    }
+    .wrapper h1{
+      font-family:Arial, Helvetica, sans-serif;
+      font-size:26px;
+    }
+
+  </style>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>mb.retweet</title>
+  <link href="css/mb.retweet.css" media="all" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="inc/jquery.mb.retweet.js"></script>
+  <script type="text/javascript">
+    $(function(){
+      if (self.location.href == top.location.href){
+        $("body").css({font:"normal 13px/16px 'trebuchet MS', verdana, sans-serif"});
+        var logo=$("<a href='http://pupunzi.com'><img id='logo' border='0' src='http://pupunzi.com/images/logo.png' alt='mb.ideas.repository' style='display:none;'></a>").css({position:"absolute"});
+        $("body").prepend(logo);
+        $("#logo").fadeIn();
+      }
+
+      $(function(){
+        $("#mbretweet1").buildMbRetweet({});
+        $("#mbretweet1a").buildMbRetweet({commentPanel:false, color:"orange"});
+        $("#mbretweet2").buildMbRetweet({color:"#666"});
+      });
+    });
+  </script>
+
+</head>
+<body>
+
+<!--<a class="retweet" href="http://ejohn.org/">John Resig's Blog</a>-->
+<div class="wrapper">
+  <h1>mb.retweet.demo</h1>
+  The mb.retweet let your visitors to easly retweet your page with a predefined comment, numbers of retweet and the short URL of your page (using the <strong>Bit.ly API</strong>).<br>
+  To get a user and a key for Bit.ly go to <a href="http://bit.ly/account/your_api_key" target="_blank">http://bit.ly/account/your_api_key</a>.
+  <br>
+  If <strong>you don't whant to get an account on Bit.ly</strong> to short your URLs, <strong>the component will use the original URL</strong> instead, but you'll not have retweetted number.
+
+  <br>
+  <br>
+  <br>
+  This two mb.retweet button get the href value as target for the retweet (in this case http://pupunzi.com):<br>
+  the first has the commentPanel option, the second has a custom color.
+  <br>
+  <br>
+  <br>
+  <a class="mbretweet" id="mbretweet1" href="http://pupunzi.com">jquery.mb.components, another way of thinking the web</a>
+  <a class="mbretweet" id="mbretweet1a" href="http://pupunzi.com">jquery.mb.components, another way of thinking the web</a>
+  <br>
+  <br>
+  <br>
+  <br>
+  This mb.retweet button, <strong>with class "self"</strong>, gets the self location as target for the retweet:
+  <br>
+  <br>
+  <br>
+  <a class="mbretweet self" id="mbretweet2" href="">This is my page on the web!</a>
+  <br>
+  <br>
+  <br>
+  Thanks to John Rasig that inspire me with his retweet js.
+</div>
+</body>
+</html>

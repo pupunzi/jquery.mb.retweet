@@ -1,0 +1,17 @@
+a.mbretweet{font: 16px/16px Arial, Helvetica, sans-serif;text-decoration:none;}
+a.mbretweet .mbretweetLabel{background: url("twitter.png") no-repeat left 4px;color:white;border: 2px solid #fff;padding: 6px;padding-left:25px;position:relative;z-index:0;-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px;-moz-box-shadow:#ccc 2px 2px 4px;-webkit-box-shadow:#ccc 2px 2px 4px;}
+a.mbretweet:hover .mbretweetLabel{background-color: #42c0e9;}
+a.mbretweet.disabled .mbretweetLabel{background-color:#ccc!important;cursor:default!important;}
+a.mbretweet.disabled:hover .mbretweetLabel{background-color:#ccc!important;}
+a.mbretweet .mbretweetStats{font: 12px/12px Arial, Helvetica, sans-serif;background:#eee;border: 0 solid #fff;color:#999;border-radius: 3px;padding: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;}
+a.mbretweet .mbopenExtra{font: 10px/10px Arial, Helvetica, sans-serif;color:#fff;margin-left: 10px;padding: 5px 0 5px 7px;border-left:1px dotted white;}
+a.mbretweet span.mbopenExtra:hover{color:#000;}
+a.mbretweet.disabled span.mbopenExtra:hover{color:#fff;}
+.mbretweetExtra{background: #f3f3f3;padding:5px;position:absolute;width:170px;z-index:1;margin-top:15px;-moz-box-shadow:#ccc 2px 2px 4px;-webkit-box-shadow:#ccc 2px 2px 4px;-moz-border-radius: 5px;-webkit-border-radius: 5px;font: 12px/13px Arial, Helvetica, sans-serif;color: gray;}
+.mbretweetExtra #mbretweetDesc{border:none;color:#42c0e9;margin-top:10px;background:#fff;width:156px;height:70px;padding:6px;-moz-border-radius: 5px;-webkit-border-radius: 5px;}
+.mbretweetExtra #mbcounter{color:#aaa;}
+.mbretweetExtra #mbcounter.alert{color:red;}
+.mbretweetExtra .extraretweet{margin-top:2px;padding:5px;color:#42c0e9;}
+.mbretweetExtra .extraretweet span.goretweet{padding:3px;background: #fff;cursor:pointer;-moz-border-radius: 5px;-webkit-border-radius: 5px;}
+.mbretweetExtra .extraretweet span.goretweet:hover{color:white!important;}
+a.mbretweet:focus {outline: 0;}
