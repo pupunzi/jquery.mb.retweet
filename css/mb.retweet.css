@@ -1,3 +1,14 @@
+/*
+ * jquery.mb.components
+ * Copyright (c) 2001-2010. Matteo Bicocchi (Pupunzi); Open lab srl, Firenze - Italy
+ * email: mbicocchi@open-lab.com
+ * site: http://pupunzi.com
+ *
+ * Licences: MIT, GPL
+ * http://www.opensource.org/licenses/mit-license.php
+ * http://www.gnu.org/licenses/gpl.html
+ */
+
 a.mbretweet{font: 16px/16px Arial, Helvetica, sans-serif;text-decoration:none;}
 a.mbretweet .mbretweetLabel{background: url("twitter.png") no-repeat left 4px;color:white;border: 2px solid #fff;padding: 6px;padding-left:25px;position:relative;z-index:0;-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px;-moz-box-shadow:#ccc 2px 2px 4px;-webkit-box-shadow:#ccc 2px 2px 4px;}
 a.mbretweet:hover .mbretweetLabel{background-color: #42c0e9;}
