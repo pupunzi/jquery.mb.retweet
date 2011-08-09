@@ -113,7 +113,7 @@
                 if($("#mbretweetDesc").length>0) {
                   el.desc= $("#mbretweetDesc").val();
                 }
-                newWin.location.href = "http://twitter.com/home?status=" +	encodeURIComponent(el.options.prefix + " " + el.desc + ": " +el.shortUrl);;
+                newWin.location.href = "http://twitter.com/home?status=" +	encodeURIComponent(el.options.prefix + " " + el.desc + ": " +el.shortUrl);
                 $(".mbretweetExtra").remove();
                 $(el).addClass("disabled");
               }
