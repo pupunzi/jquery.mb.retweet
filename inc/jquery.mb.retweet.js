@@ -1,7 +1,7 @@
 /*******************************************************************************
  jquery.mb.components
  Copyright (c) 2001-2010. Matteo Bicocchi (Pupunzi); Open lab srl, Firenze - Italy
- email: info@pupunzi.com
+ email: mbicocchi@open-lab.com
  site: http://pupunzi.com
 
  Licences: MIT, GPL
@@ -12,7 +12,7 @@
 /*
  * jQuery.mb.components: jquery.mb.retweet
  * version: 1.3
- * © 2001 - 2009 Matteo Bicocchi (pupunzi), Open Lab
+ * © 2001 - 2011 Matteo Bicocchi (pupunzi), Open Lab
  *
  */
 
