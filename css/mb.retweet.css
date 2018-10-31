@@ -1,13 +1,23 @@
-/*
- * jquery.mb.components
- * Copyright (c) 2001-2011. Matteo Bicocchi (Pupunzi); Open lab srl, Firenze - Italy
- * email: mbicocchi@open-lab.com
- * site: http://pupunzi.com
- *
- * Licences: MIT, GPL
- * http://www.opensource.org/licenses/mit-license.php
- * http://www.gnu.org/licenses/gpl.html
- */
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ jquery.mb.components
+
+ file: mb.retweet.css
+ last modified: 7/9/14 11:09 PM
+ Version:  {{ version }}
+ Build:  {{ buildnum }}
+
+ Open Lab s.r.l., Florence - Italy
+ email:  matteo@open-lab.com
+ blog: 	http://pupunzi.open-lab.com
+ site: 	http://pupunzi.com
+ 	http://open-lab.com
+
+ Licences: MIT, GPL
+ http://www.opensource.org/licenses/mit-license.php
+ http://www.gnu.org/licenses/gpl.html
+
+ Copyright (c) 2001-2018. Matteo Bicocchi (Pupunzi)
+ :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 
 a.mbretweet{font: 16px/16px Arial, Helvetica, sans-serif;text-decoration:none;}
 a.mbretweet .mbretweetLabel{background: url("twitter.png") no-repeat left 4px;color:white;border: 2px solid #fff;padding: 6px;padding-left:25px;position:relative;z-index:0;-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px;-moz-box-shadow:#ccc 2px 2px 4px;-webkit-box-shadow:#ccc 2px 2px 4px;}
